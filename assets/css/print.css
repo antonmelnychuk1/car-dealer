@@ -1,0 +1,37 @@
+header {
+  display: none !important;
+}
+.arrow {
+  display: none !important;
+}
+.slider {
+  display: none !important;
+}
+.car-prices {
+  border-bottom: none !important;
+}
+.share {
+  display: none !important;
+}
+.phone-number {
+  background: none;
+  color: brown !important;
+}
+.exchange-rate {
+  display: none !important;
+}
+.get-currency {
+  display: none !important;
+}
+.main-desctiption {
+  width: 100% !important;
+}
+ .tabs {
+  display: none !important;
+}
+.contacts-block {
+  display: none !important;
+}
+footer {
+  display: none !important;
+}

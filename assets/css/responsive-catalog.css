@@ -1,0 +1,312 @@
+@media (max-width: 768px) {
+  .header-nav {
+    display: none !important;
+  }
+  .burger-menu_button {
+    position: fixed;
+    display: block !important;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .car-characteristic p {
+    font-size: 14px !important;
+  }
+  .car-price {
+    display: block !important;
+  }
+  .car-price .currency-span {
+    padding-top: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body li, html li {
+    list-style: none;
+  }
+  body .main-container-catalog, html .main-container-catalog {
+    display: block;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  body .main-title, html .main-title {
+    display: block;
+    margin: 60px 0 0 15px;
+  }
+  body .catalog, html .catalog {
+    margin: 0;
+  }
+  body .catalog .car-list .car-list-item, html .catalog .car-list .car-list-item {
+    max-width: 33%;
+    margin: 0;
+    padding: 7px;
+  }
+  body .catalog .car-list .car-list-item a, html .catalog .car-list .car-list-item a {
+    text-decoration: none;
+  }
+  body .catalog .car-list .car-list-item .car-section, html .catalog .car-list .car-list-item .car-section {
+    height: auto;
+  }
+  body .catalog .car-list .car-list-item .car-section .car-photo, html .catalog .car-list .car-list-item .car-section .car-photo {
+    display: block;
+    width: 100%;
+  }
+  body .catalog .car-list .car-list-item .car-section .car-photo img, html .catalog .car-list .car-list-item .car-section .car-photo img {
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    border-radius: 5px 5px 0 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  body .catalog .car-list .car-list-item .car-section .car-description, html .catalog .car-list .car-list-item .car-section .car-description {
+    width: 100%;
+    margin-top: -10px;
+    color: #333;
+    padding-left: 15px;
+    -webkit-transition: 0.1s linear;
+    transition: 0.1s linear;
+    padding: 15px;
+    color: #fff;
+  }
+  body .catalog .car-list .car-list-item .car-section .car-description .car-characteristic h4, html .catalog .car-list .car-list-item .car-section .car-description .car-characteristic h4 {
+    margin: 0;
+    font-size: 22px;
+  }
+  body .catalog .car-list .car-list-item .car-section .car-description .car-characteristic p, html .catalog .car-list .car-list-item .car-section .car-description .car-characteristic p {
+    font-size: 16px;
+    margin: 0;
+  }
+  body .catalog .car-list .car-list-item .car-section .car-description .car-price, html .catalog .car-list .car-list-item .car-section .car-description .car-price {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body .catalog .car-list .car-list-item .car-section .car-description .car-price .price-dol, html .catalog .car-list .car-list-item .car-section .car-description .car-price .price-dol {
+    font-size: 28px;
+    color: greenyellow;
+    margin: 10px 5px 0 0;
+  }
+  body .catalog .car-list .car-list-item .car-section .car-description .car-price .currency-span, html .catalog .car-list .car-list-item .car-section .car-description .car-price .currency-span {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  body .catalog {
+    margin: 0;
+  }
+  body .catalog .car-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: 0;
+  }
+  body .catalog .car-list .car-list-item {
+    max-width: 50%;
+    margin: 0;
+    padding: 5px;
+  }
+  body .catalog .car-list .car-list-item .car-section {
+    width: 100%;
+    min-height: auto;
+    display: block;
+  }
+  body .catalog .car-list .car-list-item .car-section .car-photo {
+    display: block;
+    width: 100%;
+  }
+  body .catalog .car-list .car-list-item .car-section .car-photo img {
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  body .catalog .car-list .car-list-item .car-section .car-description {
+    width: 100%;
+    margin-top: -10px;
+  }
+  body .catalog .car-list .car-list-item .car-section .car-description .car-price {
+    display: block;
+    margin-top: 5px;
+  }
+  body .catalog .car-list .car-list-item .car-section .car-description .car-price .price-dol {
+    font-size: 28px;
+    color: greenyellow;
+    margin: 0 5px 0 0;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  body .catalog .car-list .car-list-item .car-section .car-description .car-price .currency-span {
+    margin: 0;
+    padding: 0;
+  }
+  body .catalog .car-list .car-list-item .car-section .car-description .car-price .currency-span span {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  body .main-title {
+    font-size: 14px;
+    padding: 0;
+  }
+  body .catalog {
+    margin: 0;
+    padding: 0 10px;
+  }
+  body .catalog .car-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 0;
+  }
+  body .catalog .car-list .car-list-item {
+    max-width: 50%;
+  }
+  body .catalog .car-list .car-list-item .car-section {
+    width: 100%;
+    min-height: auto;
+    display: block;
+  }
+  body .catalog .car-list .car-list-item .car-section .car-photo {
+    display: block;
+    width: 100%;
+  }
+  body .catalog .car-list .car-list-item .car-section .car-photo img {
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  body .catalog .car-list .car-list-item .car-section .car-description {
+    width: 100%;
+    margin-top: -10px;
+  }
+  body .catalog .car-list .car-list-item .car-section .car-description .car-characteristic {
+    height: 65px;
+}
+  body .catalog .car-list .car-list-item .car-section .car-description .car-characteristic h4 {
+    font-size: 14px;
+  }
+  body .catalog .car-list .car-list-item .car-section .car-description .car-characteristic p {
+    font-size: 12px !important;
+    line-height: 1.4;
+  }
+  body .catalog .car-list .car-list-item .car-section .car-description .car-price {
+    display: block;
+    margin-top: 10px;
+  }
+  body .catalog .car-list .car-list-item .car-section .car-description .car-price .price-dol {
+    font-size: 20px;
+    color: greenyellow;
+    margin: 0 5px 0 0;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  body .catalog .car-list .car-list-item .car-section .car-description .car-price .currency-span {
+    margin: 0;
+    padding: 0;
+  }
+  body .catalog .car-list .car-list-item .car-section .car-description .car-price .currency-span span {
+    padding: 0;
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 355px) {
+  body .main-title {
+    font-size: 12px;
+    padding: 0;
+  }
+  body .catalog {
+    margin: 0;
+    padding: 0 5px;
+  }
+  body .catalog .car-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body .catalog .car-list .car-list-item .car-section {
+    width: 100%;
+    min-height: auto;
+    display: block;
+  }
+  body .catalog .car-list .car-list-item .car-section .car-photo {
+    display: block;
+    width: 100%;
+  }
+  body .catalog .car-list .car-list-item .car-section .car-photo img {
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  body .catalog .car-list .car-list-item .car-section .car-description {
+    width: 100%;
+    margin-top: -10px;
+    padding: 10px;
+  }
+  body .catalog .car-list .car-list-item .car-section .car-description .car-characteristic {
+    height: 55px;
+}
+  body .catalog .car-list .car-list-item .car-section .car-description .car-characteristic h4 {
+    font-size: 12px;
+  }
+  body .catalog .car-list .car-list-item .car-section .car-description .car-characteristic p {
+    font-size: 10px !important;
+    line-height: 1.2;
+  }
+  body .catalog .car-list .car-list-item .car-section .car-description .car-price {
+    display: block;
+    margin-top: 5px;
+    line-height: 1.1;
+  }
+  body .catalog .car-list .car-list-item .car-section .car-description .car-price .price-dol {
+    font-size: 14px;
+    color: greenyellow;
+    margin: 0 5px 0 0;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  body .catalog .car-list .car-list-item .car-section .car-description .car-price .price-dol #dol-catalog {
+    font-size: 14px;
+  }
+  body .catalog .car-list .car-list-item .car-section .car-description .car-price span {
+    padding: 1px;
+    font-size: 8px;
+  }
+  body .catalog .car-list .car-list-item .car-section .car-description .car-price span #eur-catalog {
+    font-size: 10px;
+  }
+  body .catalog .car-list .car-list-item .car-section .car-description .car-price span #uah-catalog {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  body .main-title {
+    font-size: 10px;
+    padding: 0;
+  }
+  body .currency-span {
+    margin: 0;
+    padding: 0;
+  }
+  body .currency-span span {
+    padding: 0px 5px;
+    font-size: 8px !important;
+  }
+}

@@ -1,0 +1,539 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-x: hidden;
+  display: block;
+}
+
+body a:-webkit-any-link {
+  text-decoration: none;
+}
+
+body li {
+  list-style: none;
+}
+
+body .main {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: 40px 0 0 0;
+  
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body .main .arrow {
+  position: relative;
+  height: 50px;
+  width: 250px;
+}
+
+body .main .arrow .arrow-back {
+  position: absolute;
+  height: 40px;
+  color: #333;
+  padding: 15px;
+  padding-left: 20px;
+}
+
+body .main .arrow .arrow-back .fas {
+  width: 25px;
+  font-size: 20px;
+}
+
+body .main .arrow .arrow-back:hover {
+  color: #bb1212;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+body .main .main-content .main-content-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+body .main .main-content .main-content-section .slider {
+  display: block;
+  width: 60%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  z-index: 1;
+}
+.fotorama{
+  height: fit-content;
+}
+
+
+/* TABS 1 ---------------------------------------------------------------------------------- */
+
+
+.tabs {
+  width: 650px;
+  float: none;
+  list-style: none;
+  position: relative;
+  margin: 0;
+  text-align: left;
+  width: 95%;
+  color: #fff;
+}
+.tabs li {
+  float: left;
+  display: block;
+}
+.tabs input[type="radio"] {
+  position: absolute;
+  top: 0;
+  left: -9999px;
+}
+.tabs label {
+  display: block;
+  padding: 14px 21px;
+  border-radius: 2px 2px 0 0;
+  font-size: 20px;
+  font-weight: normal;
+  text-transform: uppercase;
+  background: #222;
+  cursor: pointer;
+  position: relative;
+  top: 27px;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.tabs label:hover {
+  background: #222;
+}
+.tabs .tab-content {
+  z-index: 2;
+  display: none;
+  overflow: hidden;
+  width: 88%;
+  font-size: 17px;
+  line-height: 25px;
+  padding: 25px;
+  position: absolute;
+  top: 80px;
+  left: 15px;
+  background: #333;
+}
+.tabs [id^="tab"]:checked + label {
+  top: 19px;
+  padding-top: 17px;
+  background: #333;
+}
+.tabs [id^="tab"]:checked ~ [id^="tab-content"] {
+  display: block;
+}
+.features-list {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.features-list .features-list-item {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.features-list-item .list {
+  width: 100%;
+}
+.tabs li {
+  float: none;
+}
+.label-new {
+  float: left;
+}
+
+.features-list .features-list-item ul {
+  width: 100%;
+  -webkit-columns: 3;
+  columns: 3;
+  padding: 0 10px;
+}
+
+.features-list .features-list-item ul li {
+  padding: 5px 0;
+  margin: 0;
+  font-size: 18px;
+}
+
+/* SLIDER ------------------------------------------------------------------------------------------ */
+
+
+body .main .main-content .main-content-section .slider .header-section {
+  display: none;
+}
+
+body .main .main-content .main-content-section .slider .header-section .arrow {
+  display: none;
+}
+
+body .main .main-content .main-content-section .slider .header-section .title-fotorama {
+  display: none;
+  color: #333;
+  margin-left: 20px;
+  font-size: larger;
+  line-height: 0.5;
+}
+
+body .main .main-content .main-content-section .slider .header-section .title-fotorama span {
+  font-size: 14px;
+}
+
+body .main .main-content .main-content-section .slider .fotorama {
+  margin: 0 20px;
+}
+
+/* MAIN DESCRIPTION ------------------------------------------------------------------------------- */
+
+body .main .main-content .main-content-section .main-desctiption {
+  max-width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 40%;
+  display: block;
+  padding: 0 15px;
+  color: #333;
+}
+
+body .main .main-content .main-content-section .main-desctiption .title-desc {
+  margin: 0px auto;
+  max-width: 95%;
+}
+
+body .main .main-content .main-content-section .main-desctiption .title-desc .title {
+  line-height: 1.0;
+  margin-top: 0;
+}
+
+body .main .main-content .main-content-section .main-desctiption .title-desc .subtitle {
+  line-height: 0.5;
+}
+
+body .main .main-content .main-content-section .main-desctiption .title-desc .car-prices {
+  margin-top: 10px;
+  border-bottom: #c2c2c2 1px solid;
+  padding-bottom: 15px;
+}
+
+body .main .main-content .main-content-section .main-desctiption .title-desc .car-prices .price-dol {
+  font-size: 38px;
+  color: #00c71b;
+}
+
+body .main .main-content .main-content-section .main-desctiption .title-desc .car-prices .symbol-dol {
+  font-size: 38px;
+  color: #00c71b;
+}
+
+body .main .main-content .main-content-section .main-desctiption .title-desc .car-prices .get-currency {
+  color: #e900e9;
+}
+
+body .main .main-content .main-content-section .main-desctiption .title-desc .car-prices .get-currency:hover {
+  color: #8a008a;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+body .main .main-content .main-content-section .main-desctiption .title-desc .share {
+  margin: 0;
+  padding-top: 10px;
+}
+
+body .main .main-content .main-content-section .main-desctiption .title-desc .call {
+  display: none;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+body .main .main-content .main-content-section .main-desctiption .about {
+  margin: -10px auto 0;
+  max-width: 95%;
+}
+
+body .main .main-content .main-content-section .main-desctiption .about .manufacture {
+  padding-top: 15px;
+  border-top: #c2c2c2 1px solid;
+}
+
+body .main .main-content .main-content-section .main-desctiption .about .title {
+  font-size: 22px;
+}
+
+body .main .main-content .main-content-section .main-desctiption .about .sidebar-description {
+  color: #333;
+}
+
+body .main .main-content .main-content-section .main-desctiption .about .sidebar-description ul {
+  display: block;
+  padding: 0;
+}
+
+body .main .main-content .main-content-section .main-desctiption .about .sidebar-description ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 18px;
+}
+
+body .main .main-content .main-content-section .main-desctiption .about .sidebar-description ul .vin {
+  padding-bottom: 15px;
+  border-bottom: #c2c2c2 1px solid;
+}
+
+body .main .main-content .main-content-section .main-desctiption .call {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 55px;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .main .main-content .main-content-section .main-desctiption .call .phone-number {
+  margin: 0;
+  background-color: #00c71b;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  padding: 15px 20px;
+}
+
+body .main .main-content .main-content-section .main-desctiption .call .phone-number:hover {
+  background-color: greenyellow;
+  color: #333;
+}
+
+body .main .main-content .container-description {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+
+/* TABS 2 ----------------------------------------------------------------------------------- */
+
+body .main .main-content .container-description .tabs {
+  font-size: 0;
+  max-width: 57%;
+  margin: 20px;
+  display: none;
+}
+
+body .main .main-content .container-description .tabs > input[type="radio"] {
+  display: none;
+}
+
+body .main .main-content .container-description .tabs > div {
+  display: none;
+  background-color: #333;
+  padding: 10px 15px;
+  font-size: 16px;
+}
+
+body .main .main-content .container-description #tab-btn-1:checked ~ #content-1,
+body .main .main-content .container-description #tab-btn-2:checked ~ #content-2 {
+  display: block;
+}
+
+body .main .main-content .container-description .tabs > label {
+  height: 35px;
+  width: 150px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  border: 1px solid #333;
+  background-color: #fff;
+  color: #333;
+  padding-top: 12px;
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+  cursor: pointer;
+  position: relative;
+  top: 1px;
+}
+
+body .main .main-content .container-description .tabs > label:not(:first-of-type) {
+  border-left: none;
+}
+
+body .main .main-content .container-description .tabs > input[type="radio"]:checked + label {
+  background-color: #333;
+  color: #fff;
+  border-bottom: 1px solid #333;
+}
+
+body .main .main-content .container-description .tabs-description {
+  padding: 0 10px;
+  font-size: 18px;
+}
+
+body .main .main-content .container-description .features-list {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+body .main .main-content .container-description .features-list .features-list-item {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body .main .main-content .container-description .features-list .features-list-item ul {
+  width: 100%;
+  -webkit-columns: 3;
+  columns: 3;
+  padding: 0 10px;
+}
+
+body .main .main-content .container-description .features-list .features-list-item ul li {
+  padding: 5px 0;
+  margin: 0;
+  font-size: 18px;
+}
+
+body .main .main-content .container-description .main-desctiption {
+  display: none;
+}
+
+/* CONTACTS ------------------------------------------------------------------------------------- */
+
+.contacts-block {
+  display: block;
+  width: 100%;
+  margin: 30px auto;
+}
+
+.contacts-title {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-top: 0;
+  padding: 0;
+}
+
+.contacts-container {
+  display: block;
+  width: 100%;
+}
+
+.contact-section {
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  height: 150px;
+}
+
+.contact-section h4 {
+  text-align: center;
+  font-size: 24px;
+  padding-top: 10px;
+  margin: 0;
+
+}
+
+.contact-block {
+  margin: 10px auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: block;
+}
+
+
+.contacts-section-type {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #fff;
+  margin-right: 7px;
+}
+
+.contacts-section-type .fa {
+  color: #fff;
+}
+
+.contacts-section-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #fff;
+  text-decoration: none;
+}
+
+.contacts-section-link:hover {
+  color: #5e4eb9;
+}
+
+.contacts-section-adress {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #fff;
+  margin: 0;
+}
+
+.contacts-block{
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+}
+.map{
+  width: 100%;
+  height: 300px;
+  border: #333 5px;
+}
+.map iframe {
+  width: 100%;
+  height: 300px;
+  
+  border: #333 5px; 
+  
+}
+
+.contact{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.container-description .contacts-block{
+  display: none;
+}

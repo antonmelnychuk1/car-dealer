@@ -1,0 +1,547 @@
+@media (max-width: 768px) {
+  .header-nav {
+    display: none !important;
+  }
+  .burger-menu_button {
+    position: fixed;
+    display: block !important;
+  }
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+  .tabs {
+    margin: 0;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+  }
+  .map{
+    width: 100%;
+    height: 240px;
+    border: #333 5px;
+  }
+  .map iframe {
+    width: 100%;
+    height: 240px;
+    
+    border: #333 5px; 
+    
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  
+  .main-desctiption {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .main {
+    width: 100%;
+    margin: 0;
+    background-size: cover;
+  }
+  .main .arrow {
+    display: none;
+  }
+  .main .main-content .main-content-section {
+    display: block !important;
+    width: 100%;
+  }
+  .main .main-content .main-content-section .slider {
+    height: 800px;
+    display: block;
+    width: 100% !important;
+    z-index: 1;
+  }
+  .main .main-content .main-content-section .slider .header-section {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+  .slider-header {
+    display: flex ;
+  }
+  .main .main-content .main-content-section .slider .header-section .arrow {
+    width: 50px;
+    display: block !important;
+    padding: 0;
+    margin: 0;
+  }
+  .main .main-content .main-content-section .slider .header-section .arrow .arrow-back {
+    padding-top: 25px;
+  }
+  .main .main-content .main-content-section .slider .header-section .arrow .arrow-back .fas {
+    font-size: 40px;
+  }
+  .main .main-content .main-content-section .slider .header-section .title-fotorama {
+    display: block !important;
+  }
+  .main .main-content .main-content-section .slider .fotorama {
+    margin: 20px auto !important;
+    width: 90%;
+  }
+  .slider .tabs {
+    display: none
+  }
+  .main .main-content .main-content-section .main-desctiption {
+    display: none !important;
+  }
+  .main .container-description {
+    max-width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    color: #333;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .main .container-description .tabs {
+    display: block !important;
+    font-size: 0;
+    max-width: 48% !important;
+    margin: 20px auto !important;
+  }
+  .main .container-description .features-list ul {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 0 !important;
+  }
+  .main .container-description .features-list ul li {
+    width: 50%;
+    font-size: 15px !important;
+  }
+  .main .container-description .main-desctiption {
+    padding-left: 20px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 45% !important;
+    display: block !important;
+    color: #333;
+  }
+  .main .container-description .main-desctiption .title-desc {
+    margin: 10px auto;
+    max-width: 100%;
+  }
+  .main .container-description .main-desctiption .title-desc .title {
+    line-height: 1.0;
+    display: none !important;
+  }
+  .main .container-description .main-desctiption .title-desc .subtitle {
+    line-height: 0.5;
+    display: none !important;
+  }
+  .main .container-description .main-desctiption .title-desc .car-prices {
+    margin-top: 10px;
+    border-bottom: #c2c2c2 1px solid;
+    padding-bottom: 15px;
+  }
+  .main .container-description .main-desctiption .title-desc .car-prices .price-dol {
+    color: #00c71b;
+    font-size: 38px;
+  }
+  .main .container-description .main-desctiption .title-desc .car-prices .get-currency {
+    color: #e900e9;
+  }
+  .main .container-description .main-desctiption .title-desc .car-prices .get-currency:hover {
+    color: #8a008a;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  .main .container-description .main-desctiption .title-desc .share {
+    margin-top: 10px;
+  }
+  .main .container-description .main-desctiption .title-desc .call {
+    display: none;
+  }
+  .main .container-description .main-desctiption .about {
+    margin: -10px auto;
+    max-width: 100%;
+  }
+  .main .container-description .main-desctiption .about .manufacture {
+    padding-top: 15px;
+    border-top: #c2c2c2 1px solid;
+  }
+  .main .container-description .main-desctiption .about .title {
+    font-size: 22px;
+  }
+  .main .container-description .main-desctiption .about .sidebar-description {
+    color: #333;
+  }
+  .main .container-description .main-desctiption .about .sidebar-description ul {
+    display: block;
+    padding: 0;
+  }
+  .main .container-description .main-desctiption .about .sidebar-description ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-size: 18px;
+  }
+  .main .container-description .main-desctiption .about .sidebar-description ul .vin {
+    padding-bottom: 15px;
+    border-bottom: #c2c2c2 1px solid;
+  }
+  .main .container-description .main-desctiption .call {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 55px;
+    margin: 0 auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main .container-description .main-desctiption .call .phone-number {
+    margin: 0;
+    background-color: #00c71b;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    padding: 15px 20px;
+  }
+  .main .container-description .main-desctiption .call .phone-number:hover {
+    background-color: greenyellow;
+    color: #333;
+  }
+  body .main .main-content .container-description .tabs > label {
+    width: 122px;
+    height: 19px;
+  }
+  .container-description .contacts-block{
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main {
+    width: 100%;
+    margin: 0;
+  }
+  .main .arrow {
+    display: none;
+  }
+  .main .main-content-section {
+    display: block !important;
+  }
+  .main .main-content-section .slider {
+    width: 100% !important;
+  }
+  .main .main-content-section .slider .header-section {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+  .main .main-content-section .slider .header-section .title-fotorama {
+    display: block !important;
+  }
+  .main .main-content-section .slider .fotorama {
+    margin: 20px auto !important;
+  }
+  .main .container-description {
+    display: block !important;
+  }
+  .main .container-description .main-desctiption {
+    margin: 0;
+    height: 310px;
+    width: 100% !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    padding: 0;
+    color: #333;
+  }
+  .main .container-description .main-desctiption .title-desc {
+    margin: 10px auto 0 15px;
+    max-width: 100%;
+  }
+  .main .container-description .main-desctiption .title-desc .title {
+    line-height: 1.0;
+    display: none !important;
+  }
+  .main .container-description .main-desctiption .title-desc .subtitle {
+    line-height: 0.5;
+    display: none !important;
+  }
+  .main .container-description .main-desctiption .title-desc .share {
+    margin-top: 20px;
+  }
+  .main .container-description .main-desctiption .title-desc .call {
+    margin-top: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 55px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  .main .container-description .main-desctiption .title-desc .call .call-button {
+    margin: 0;
+    background-color: #00c71b;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    padding: 15px 20px;
+  }
+  .main .container-description .main-desctiption .title-desc .call .call-button:hover {
+    background-color: greenyellow;
+    color: #333;
+  }
+  .main .container-description .main-desctiption .about {
+    width: 50%;
+    margin: 0 7px 0 3px;
+    padding: 0;
+    max-width: 100%;
+  }
+  .main .container-description .main-desctiption .about .manufacture {
+    padding-top: 15px;
+    border-top: #c2c2c2 1px solid;
+  }
+  .main .container-description .main-desctiption .about .title {
+    font-size: 22px;
+  }
+  .main .container-description .main-desctiption .about .sidebar-description {
+    color: #333;
+    margin-right: 20px;
+  }
+  .main .container-description .main-desctiption .about .sidebar-description ul {
+    display: block;
+    padding: 0;
+  }
+  .main .container-description .main-desctiption .about .sidebar-description ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-size: 16px;
+  }
+  .main .container-description .main-desctiption .about .sidebar-description ul .vin {
+    padding-bottom: 15px;
+    border-bottom: #c2c2c2 1px solid;
+  }
+  .main .container-description .main-desctiption .phone-number {
+    display: none;
+  }
+  .main .container-description .tabs {
+    max-width: 90% !important;
+    margin-top: 50px !important;
+    margin: 15px auto 0 !important;
+  }
+  .main .container-description .features-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  .main .container-description .features-list .features-list-item {
+    display: block;
+  }
+  .main .container-description .features-list .features-list-item ul {
+    margin-left: 20px;
+  }
+  .main .container-description .features-list .features-list-item ul li {
+    width: 50%;
+  }
+
+  .contacts-block {
+    display: block;
+    width: 100%;
+    margin: 30px auto 0;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .main {
+    width: 100%;
+    margin: 0;
+  }
+  .main .slider .arrow {
+    width: 40px !important;
+  }
+  .main .slider .arrow .arrow-back {
+    padding-top: 20px !important;
+  }
+  .main .slider .arrow .arrow-back .fas {
+    font-size: 35px !important;
+  }
+  .main .title-fotorama {
+    margin-top: 10px;
+  }
+  .main .title-fotorama h2 {
+    font-size: 20px;
+  }
+  .main .container-description {
+    max-width: 100%;
+    display: block !important;
+  }
+  .main .container-description .main-desctiption {
+    margin: 0;
+    padding: 10px;
+    height: auto;
+    width: 95% !important;
+    display: block !important;
+  }
+  .main .container-description .main-desctiption .title-desc {
+    margin: 10px auto;
+    width: 100%;
+  }
+  .main .container-description .main-desctiption .title-desc .title {
+    line-height: 1.0;
+    display: none !important;
+  }
+  .main .container-description .main-desctiption .title-desc .subtitle {
+    line-height: 0.5;
+    display: none !important;
+  }
+  .main .container-description .main-desctiption .title-desc .car-prices {
+    width: 95%;
+    margin-top: 10px;
+    border-bottom: #c2c2c2 1px solid;
+    padding-bottom: 15px;
+    display: block;
+  }
+  .main .container-description .main-desctiption .title-desc .car-prices .curr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .main .container-description .main-desctiption .title-desc .car-prices .get-currency {
+    padding-left: 10px;
+  }
+  .main .container-description .main-desctiption .title-desc .share {
+    margin-top: 20px;
+  }
+  .main .container-description .main-desctiption .title-desc .call {
+    display: block;
+    margin: 25px 0;
+    height: 30px;
+  }
+  .main .container-description .main-desctiption .title-desc .call .call-button {
+    padding: 10px;
+    font-size: 16px;
+  }
+  .main .container-description .main-desctiption .about {
+    width: 100%;
+    margin: 15px auto;
+  }
+  .main .container-description .main-desctiption .about .title {
+    font-size: 22px;
+  }
+  .main .container-description .main-desctiption .about .sidebar-description {
+    margin-right: 0;
+  }
+  .main .container-description .main-desctiption .about .sidebar-description ul {
+    display: block;
+    padding: 0;
+  }
+  .main .container-description .main-desctiption .about .sidebar-description ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-size: 16px;
+  }
+  .main .container-description .main-desctiption .call {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .main {
+    margin: 0;
+  }
+  .main .title-fotorama {
+    margin-top: 10px;
+  }
+  .main .title-fotorama h2 {
+    font-size: 20px;
+  }
+  .main .container-description {
+    max-width: 100%;
+    display: block !important;
+  }
+  .main .container-description .main-desctiption {
+    display: block !important;
+  }
+  .main .container-description .main-desctiption .title-desc {
+    margin: 10px 0;
+    padding: 0;
+    width: 100%;
+  }
+  .main .container-description .main-desctiption .title-desc .share {
+    margin-top: 20px;
+  }
+  .main .container-description .main-desctiption .title-desc .call {
+    display: block;
+    margin-top: 25px;
+    height: 30px;
+  }
+  .main .container-description .main-desctiption .title-desc .call .call-button {
+    padding: 10px;
+    font-size: 16px;
+  }
+  .main .container-description .main-desctiption .about {
+    width: 100%;
+    margin: 15px auto;
+    padding: 0 5px 0 0px;
+    max-width: 400px;
+  }
+  .main .container-description .main-desctiption .about .title {
+    font-size: 22px;
+  }
+  .main #content-2 ul {
+    margin: 0;
+  }
+  .main #content-2 li {
+    width: 50%;
+  }
+
+}
+
+@media only screen and (max-width: 374px) {
+  .tabs > label {
+    width: 120px !important;
+    font-size: 14px !important;
+  }
+  #content-2 ul {
+    padding: 0 20px !important;
+  }
+  #content-2 li {
+    width: 100% !important;
+  }
+  body .main .main-content .container-description .tabs > label {
+    width: 90px !important;
+    height: 15px;
+    font-size: 12px !important;
+  }
+}
